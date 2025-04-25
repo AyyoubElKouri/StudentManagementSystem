@@ -37,3 +37,23 @@ ul li a{
     color: white;
     font-size: 18px;
 }
+
+.section1{
+    padding-top: 70px;
+}
+
+.img-text{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: white;
+    background-color: midnightblue;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+.main-img{
+    width: 100%;
+    height: 300px;
+}
