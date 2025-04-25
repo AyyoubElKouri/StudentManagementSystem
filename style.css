@@ -124,3 +124,54 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+.login-title{
+    position: absolute;
+    top: 20%;
+    left: 35.3%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+    background-color: skyblue;
+    width: 400px;
+}
+
+.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: skyblue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+    padding: 35px 0;
+}
+
+
+
+.label-form{
+    display: inline-block;
+    color: rgb(44, 70, 80);
+    width: 100px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-form{
+    width: 250px;
+    height: 36px;
+    border-radius: 10px;
+    border: 1px solid rgb(64, 96, 109);
+    padding: 0 20px;
+}
+
+.login-button{
+    width: 355px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
