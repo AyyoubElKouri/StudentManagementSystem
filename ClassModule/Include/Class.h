@@ -14,6 +14,9 @@ class Class : public Displayable {
     std::string m_name;
     std::vector<Student*> m_students;
 
+    // This function used to get the depth to better display for the students in the class
+    int getDepth(int attribute) const;
+
 public:
     // Constructors
     Class() = default;
