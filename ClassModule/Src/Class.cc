@@ -19,6 +19,7 @@ void Class::setName(std::string name) {
 
 void Class::addStudent(Student* student) {
     m_students.push_back(student);
+    student->setClass(this);
 }
 
 void Class::display() const {
