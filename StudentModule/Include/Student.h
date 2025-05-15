@@ -15,6 +15,7 @@ class Student : public Displayable {
 
 public:
     Student(std::string name, int age, std::string address, Class* cclass);
+    Student(std::string name, int age, std::string address);
     ~Student() = default;
 
     // Getters

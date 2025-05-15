@@ -7,6 +7,9 @@ Student::Student(std::string name, int age, std::string address, Class* cclass)
     cclass->addStudent(this);
 }
 
+Student::Student(std::string name, int age, std::string address)
+: m_name(name), m_age(age), m_address(address), m_class(nullptr) {}
+
 std::string Student::getName() const {
     return m_name;
 }
