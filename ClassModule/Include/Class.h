@@ -2,8 +2,10 @@
 #define CLASS_H
 
 #include <string>
+#include <iostream>
+#include "../../SharedModule/Interfaces/Displayable.h"
 
-class Class {
+class Class : public Displayable {
     int m_number;
     std::string m_name;
 
@@ -22,7 +24,9 @@ public:
 
     // Setters
     void setName(std::string name);
-    
+
+    // Displayable interface
+    void display() const override;
 };
 
 
