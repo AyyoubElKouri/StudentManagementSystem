@@ -3,11 +3,16 @@
 
 #include <string>
 #include <iostream>
+#include <vector>
+
 #include "../../SharedModule/Interfaces/Displayable.h"
+
+class Student;
 
 class Class : public Displayable {
     int m_number;
     std::string m_name;
+    std::vector<Student*> m_students;
 
 public:
     // Constructors
@@ -24,6 +29,9 @@ public:
 
     // Setters
     void setName(std::string name);
+
+    // Add a student to the class
+    void addStudent(Student* student);
 
     // Displayable interface
     void display() const override;
