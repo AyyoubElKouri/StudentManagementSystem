@@ -20,7 +20,6 @@ class Class : public Displayable {
 public:
     // Constructors
     Class() = default;
-    Class(const Class& other) = default;
     Class(std::string name);
 
     // Destructor
