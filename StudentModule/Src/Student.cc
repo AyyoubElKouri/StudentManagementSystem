@@ -42,6 +42,10 @@ void Student::setClass(Class* cclass) {
     m_class = cclass;
 }
 
+void Student::addToClass(Class* cclass) {
+    cclass->addStudent(this);
+}
+
 void Student::display() const {
     std::cout << "Student: " << m_name << " (" << m_age << ")" << ", In Class: " << m_class->getName() << std::endl;
 }

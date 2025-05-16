@@ -30,6 +30,7 @@ public:
     void setAddress(std::string address);
     void setClass(Class* cclass);
 
+    void addToClass(Class* cclass);
 
     void display() const override;
 };
